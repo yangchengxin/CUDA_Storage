@@ -9,6 +9,7 @@
 | [letterbox.cu](https://github.com/yangchengxin/CUDA_Storage/blob/main/letterbox.cu) | yolo等算法中常用的保持输入长宽比且满足网络输入尺寸的方法。 |
 | [nms_cpu](https://github.com/yangchengxin/CUDA_Storage/blob/main/nms_cpu.cpp) | 在cpu上进行nms。 |
 | [nms_cuda](https://github.com/yangchengxin/CUDA_Storage/blob/main/nms_cuda.cu) | 在cuda上进行nms。 |
+| [biliearInterpolation](https://github.com/yangchengxin/CUDA_Storage/tree/main/bilinear) | 二次线性插值resize |
 
 ## 📌 使用方法
 1. **克隆仓库**：
