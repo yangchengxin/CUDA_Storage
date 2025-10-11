@@ -13,6 +13,7 @@ int main() {
     int N = 512;
     size_t size = N * sizeof(float);
 
+    std::cout << "hello" << std::endl;
     // 分配主机内存
     float *h_a = (float*)malloc(size);
     float *h_b = (float*)malloc(size);

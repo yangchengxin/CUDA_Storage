@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(yolo11_trtx_v8)
+project(bilinear)
 
 set(CMAKE_CXX_STANDARD 11)
 # 设置nvcc编译cu文件时候使用utf-8编码
@@ -12,12 +12,6 @@ enable_language(CUDA)
 set(CMAKE_CUDA_ARCHITECTURES 75 86)
 message(STATUS "CMAKE_CUDA_ARCHITECTURES: ${CMAKE_CUDA_ARCHITECTURES}")
 
-# OpenCV
-set(OpenCV_DIR D:\\opencv\\build\\x64\\vc16\\lib)
-find_package(OpenCV REQUIRED)
-include_directories(${OpenCV_INCLUDE_DIRS})
-link_directories(${OpenCV_LIB_DIR})
-
 # CUDA
 set(CUDA_TOOLKIT_ROOT_DIR C:\\Program\ Files\\NVIDIA\ GPU\ Computing\ Toolkit\\CUDA\\v11.4)
 include_directories(${CUDA_TOOLKIT_ROOT_DIR}/include)
@@ -27,6 +21,7 @@ add_definitions(-DNOMINMAX)
 
 add_definitions(-DAPI_EXPORTS)
 
-add_executable(hello_cuda hello.cu)
-target_link_libraries(hello_cuda cudart)
+add_executable(bilinear kernel.cu)
+include_directories(${CMAKE_SOURCE_DIR}/include)
+target_link_libraries(bilinear cudart)
 
