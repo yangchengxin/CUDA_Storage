@@ -10,6 +10,7 @@
 | [nms_cpu](https://github.com/yangchengxin/CUDA_Storage/blob/main/nms_cpu.cpp) | 在cpu上进行nms。 |
 | [nms_cuda](https://github.com/yangchengxin/CUDA_Storage/blob/main/nms_cuda.cu) | 在cuda上进行nms。 |
 | [biliearInterpolation](https://github.com/yangchengxin/CUDA_Storage/tree/main/bilinear) | 二次线性插值resize |
+| [2.1.1](https://github.com/yangchengxin/CUDA_Storage/tree/main/bilinear) | grid，block与thread的索引关系 |
 
 ## 📌 使用方法
 1. **克隆仓库**：
