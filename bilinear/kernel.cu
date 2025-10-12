@@ -140,7 +140,7 @@ int main()
     int outputHeight = 213;
  
     // 读取图片
-    const char* image_path = "D:\\ycx_git_repositories\\CUDA_Storage\\bilinear\\cat.jpg";
+    const char* image_path = "../../../../cat.jpg";
     uchar3* h_inputImage = read_image(image_path);
  
     // malloc host 
@@ -150,7 +150,7 @@ int main()
     bilinearInterpolation_launch(h_inputImage, h_outputImage, inputWidth, inputHeight, outputWidth, outputHeight);
  
     // save img 
-    const char* output_filename = "D:\\ycx_git_repositories\\CUDA_Storage\\bilinear\\cat_1.jpg";
+    const char* output_filename = "../../../../cat111.jpg";
     stbi_write_png( output_filename, outputWidth, outputHeight, 3, h_outputImage, outputWidth * 3);
     
     // free cpu 
