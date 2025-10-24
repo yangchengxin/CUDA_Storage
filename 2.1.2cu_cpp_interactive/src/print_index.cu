@@ -58,4 +58,3 @@ void print_thread_idx_device(dim3 grid, dim3 block){
   print_thread_idx_kernel<<<grid, block>>>();
   CUDA_CHECK(cudaDeviceSynchronize());
 }
-

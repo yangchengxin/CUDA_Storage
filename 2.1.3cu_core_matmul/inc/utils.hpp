@@ -4,8 +4,7 @@
 #include <cuda_runtime.h>
 #include <system_error>
 
-// 一般cuda的check都是这样写成宏
-#define CUDA_CHECK(call) {                                                 \
+#define CUDACHECK(call) {                                                  \
     cudaError_t error = call;                                              \
     if (error != cudaSuccess) {                                            \
         printf("ERROR: %s:%d, ", __FILE__, __LINE__);                      \
@@ -13,5 +12,11 @@
         exit(1);                                                           \
     }                                                                      \
 }
+
+#define BLOCKSIZE 16
+
+void initMatrix(float* data, int size, int low, int high, int seed);
+void printMat(float* data, int size);
+void compareMat(float* h_data, float* d_data, int size);
 
 #endif //__UTILS__HPP__
