@@ -10,9 +10,10 @@
 | [nms_cpu](https://github.com/yangchengxin/CUDA_Storage/blob/main/nms_cpu.cpp) | 在cpu上进行nms。 |
 | [nms_cuda](https://github.com/yangchengxin/CUDA_Storage/blob/main/nms_cuda.cu) | 在cuda上进行nms。 |
 | [biliearInterpolation](https://github.com/yangchengxin/CUDA_Storage/tree/main/bilinear) | 二次线性插值resize |
-| [2.1.1learning_grid_block](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.1.1learning_grid_block) | grid，block与thread的索引关系 |
-| [2.1.2cu_cpp_interactive](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.1.2cu_cpp_interactive) | cpp与cuda间的交互 |
-
+| [2.1learning_grid_block](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.1learning_grid_block) | grid，block与thread的索引关系 |
+| [2.2cu_cpp_interactive](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.2cu_cpp_interactive) | cpp与cuda间的交互 |
+| [2.3cu_core_matmul](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.3cu_core_matmul) | 矩阵相乘 |
+| [2.4error_handled](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.4error_handled) | cuda语句报错提示 |
 
 ## 📌 使用方法
 1. **克隆仓库**：
