@@ -14,6 +14,8 @@
 | [2.2cu_cpp_interactive](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.2cu_cpp_interactive) | cpp与cuda间的交互 |
 | [2.3cu_core_matmul](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.3cu_core_matmul) | 矩阵相乘 |
 | [2.4error_handled](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.4error_handled) | cuda语句报错提示 |
+| [2.5device_info](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.5device_info) | 设备信息 |
+
 
 ## 📌 使用方法
 1. **克隆仓库**：
