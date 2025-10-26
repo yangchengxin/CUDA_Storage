@@ -15,7 +15,8 @@
 | [2.3cu_core_matmul](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.3cu_core_matmul) | 矩阵相乘 |
 | [2.4error_handled](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.4error_handled) | cuda语句报错提示 |
 | [2.5device_info](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.5device_info) | 设备信息 |
-| [2.6device_info](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.6nsignt_system_and_compute) | 使用nsight分析 |
+| [2.6nsight_system_and_compute](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.6nsignt_system_and_compute) | 使用nsight分析 |
+| [2.7matmul_shared_memory](https://github.com/yangchengxin/CUDA_Storage/tree/main/2.7matmul_shared_memory) | 使用tiling技术来填充shared memory加速计算 |
 
 ## 📌 使用方法
 1. **克隆仓库**：
