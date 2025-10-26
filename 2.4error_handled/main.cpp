@@ -91,7 +91,7 @@ int main(){
      * 如果没有使用error handler进行错误排查的话是无法发现错误的
     */
     timer.start();
-    blockSize = 64;
+    blockSize = 16;
     MatmulOnDevice(h_matM, h_matN, d_matP, width, blockSize);
     timer.stop();
     std::sprintf(str, "matmul in gpu(general)<<<%d, %d>>>", width / blockSize, blockSize);
